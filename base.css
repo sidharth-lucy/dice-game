@@ -1,0 +1,42 @@
+body{
+  text-align: center;
+  margin: 0;
+
+}
+
+.parent{
+
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+  color: red;
+
+}
+
+.grid-container{
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin: 40px;
+  border: 1px solid blue;
+  border-radius: 30px;
+
+ }
+
+.grid-item{
+  height: 50px;
+  width: 50px;
+  padding: 20px;
+  border-radius: 50%;
+
+}
+
+
+.boom{
+  transform: scale(2);
+}
+
+.mark{
+  background-color: black;
+}
